@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" routerLink="/inicio">Inicio</a>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+            <div class="dropdown">
+                <div (click)="openDropdownRegistrar()" class="nav-link dropdown-toggle pointer">Gestión</div>
+                <div id="dropdownRegistrar" class="dropdown-content">
+                    <a routerLink="/mascotas">Mascotas</a>
+                    <a routerLink="/registro_usuario">Registro Usuario</a>
+                </div>
+            </div>
+            <a class="nav-link" routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+            <div class="dropdown">
+                <div (click)="openDropdownContacto()" class="nav-link dropdown-toggle pointer">Contáctenos</div>
+                <div id="dropdownContacto" class="dropdown-content">
+                <a routerLink="">Home</a>
+                <a routerLink="">About</a>
+                <a routerLink="">Contact</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="text-white nav-link navbar-nav">Veterinario, Juan</div>
+    <div class="dropdown navbar-nav">
+        <div (click)="openDropdownUsuario()" class="nav-link dropdown-toggle pointer"><i class="fas fa-user fa-fw"></i></div>
+        <div id="dropdownUsuario" class="dropdown-content">
+        <a routerLink="">Cerrar sesión</a>
+        </div>
+    </div>
+</nav>
