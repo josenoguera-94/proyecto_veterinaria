@@ -6,9 +6,11 @@ import { AppComponent } from './app.component';
 import { NavegacionComponent } from './components/navegacion/navegacion.component';
 import { LoginComponent } from './components/login/login.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { MascotasComponent } from './components/mascotas/mascotas.component';
 import { CrearUsuarioComponent } from './components/crear-usuario/crear-usuario.component';
-import { EditarMascotaComponent } from './components/editar-mascota/editar-mascota.component';
+import { EditarMascotaComponent } from './components/mascotas/editar-mascota/editar-mascota.component';
+import { PrincipalComponent } from './components/principal/principal.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { ListarMascotasComponent } from './components/mascotas/listar-mascotas/listar-mascotas.component';
 
 @NgModule({
   declarations: [
@@ -16,9 +18,11 @@ import { EditarMascotaComponent } from './components/editar-mascota/editar-masco
     NavegacionComponent,
     LoginComponent,
     DashboardComponent,
-    MascotasComponent,
     CrearUsuarioComponent,
-    EditarMascotaComponent
+    EditarMascotaComponent,
+    PrincipalComponent,
+    FooterComponent,
+    ListarMascotasComponent
   ],
   imports: [
     BrowserModule,
