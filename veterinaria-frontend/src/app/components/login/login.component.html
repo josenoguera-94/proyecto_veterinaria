@@ -1,4 +1,25 @@
 <div class="container">
-    <p>login works!</p>
-    <a routerLink="/inicio" class="btn btn-primary">Iiniciar sesión</a>
+    <div class="row mt-5">
+        <div class="col-md-4 offset-md-4">
+            <div class="card" style="border-color: #337ab7;">
+                <div class="card-header text-light text-center" style="background: #337ab7;">
+                    My furry loves
+                </div>
+                <div class="card-body">
+                    <div style="text-align: center;">
+                        <img src="recourses/img/escudo_256x256.png" height="130">
+                    </div>
+                    <form action="" id="frmLogin" class="fz-14">
+                        <label class="mb-0">Correo electrónico</label>
+                        <input type="email" class="form-control input-sm mb-2" id="correoL" name="correoL" placeholder="Ingrese un correo electrónico">
+                        <label class="mb-0">Contraseña</label>
+                        <input type="password" class="form-control input-sm mb-2" id="passwordL" name="passwordL" placeholder="Ingrese de nuevo la contraseña">
+                    </form>
+                </div>
+                <div class="card-footer text-center">
+                        <a routerLink="/inicio" class="btn btn-primary">Iiniciar sesión</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
