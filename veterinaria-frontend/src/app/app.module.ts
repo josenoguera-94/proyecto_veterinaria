@@ -7,7 +7,6 @@ import { NavegacionComponent } from './components/navegacion/navegacion.componen
 import { LoginComponent } from './components/login/login.component';
 import { CrearUsuarioComponent } from './components/crear-usuario/crear-usuario.component';
 import { EditarMascotaComponent } from './components/mascotas/editar-mascota/editar-mascota.component';
-import { PrincipalComponent } from './components/principal/principal.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ListarMascotasComponent } from './components/mascotas/listar-mascotas/listar-mascotas.component';
 
@@ -18,7 +17,6 @@ import { ListarMascotasComponent } from './components/mascotas/listar-mascotas/l
     LoginComponent,
     CrearUsuarioComponent,
     EditarMascotaComponent,
-    PrincipalComponent,
     FooterComponent,
     ListarMascotasComponent
   ],
