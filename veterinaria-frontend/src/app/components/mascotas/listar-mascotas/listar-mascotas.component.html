@@ -1,4 +1,65 @@
 <app-navegacion></app-navegacion>
-<div class="container">
-    <p>listar-mascotas works!</p>
+<div class="container" >
+    <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+            <a class="btn btn-success mb-2"  routerLink="/registrar_mascota">Nueva Mascota</a>
+            <div class="card" >
+                <div class="card-body">
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>No</th>
+                                <th>Servicio</th>
+                                <th>Fecha</th>
+                                <th>Valor</th>
+                                <th>Dueño</th>
+                                <th>Editar</th>
+                                <th>Eliminar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>dentista</td>
+                                <td>1/12/21</td>
+                                <td>28.000</td>
+                                <td>maria</td>
+                                <td>
+                                    <a routerLink="/registrar_mascota"  class="btn btn-warning text-white">Editar</a>
+                                </td>
+                                <td><div class="btn btn-danger">Eliminar</div></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>2</td>
+                                <td>oftalmologia</td>
+                                <td>2/12/21</td>
+                                <td>40.000</td>
+                                <td>juan</td>
+                                <td>
+                                    <a routerLink="/registrar_mascota"  class="btn btn-warning text-white">Editar</a>
+                                </td>
+                                <td><div class="btn btn-danger">Eliminar</div></td>
+                            </tr>
+                        </tbody>
+                        <tbody>
+                            <tr>
+                                <td>3</td>
+                                <td>dentista</td>
+                                <td>1/12/21</td>
+                                <td>28.000</td>
+                                <td>laura</td>
+                                <td>
+                                    <a routerLink="/registrar_mascota" class="btn btn-warning text-white">Editar</a>
+                                </td>
+                                <td><div class="btn btn-danger">Eliminar</div></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+            </div>
+        </div>
+    </div>
 </div>
