@@ -1,0 +1,14 @@
+# Proyecto veterinaria - Sprint 3
+
+# Integrantes:
+- Jose Luis Noguera
+- Luis Alfredo Molina
+- Hernan Dario Echeverri Ramirez
+- Diego Luis Villamil Benitez
+
+# Repositorio
+https://github.com/josenoguera-94/proyecto_veterinaria
+
+# Link video de la explicación del proyecto
+
+https://www.mediafire.com/file/67cebn0nz9az92z/entregable_sprint3.mp4/file
