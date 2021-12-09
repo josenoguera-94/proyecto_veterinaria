@@ -1,0 +1,132 @@
+[33mcommit 264283e590bef10ace20914f7cc8f64fa86c798a[m[33m ([m[1;36mHEAD -> [m[1;32msprint2[m[33m, [m[1;31morigin/sprint2[m[33m)[m
+Author: Hernán Echeverri <91143534+hedaecra@users.noreply.github.com>
+Date:   Wed Dec 8 21:49:58 2021 -0500
+
+    shell
+
+[33mcommit efcc075356f570ee11bf863dc5b412de6e98ea91[m
+Merge: 4b40663 8f90d86
+Author: Jose Noguera <josenoguera1994@gmail.com>
+Date:   Sat Nov 27 14:44:04 2021 -0500
+
+    Merge branch 'sprint2' of https://github.com/josenoguera-94/proyecto_veterinaria into sprint2
+
+[33mcommit 4b406637f046bb6df9b5979da1977eed324a5a03[m
+Author: Jose Noguera <josenoguera1994@gmail.com>
+Date:   Sat Nov 27 14:43:52 2021 -0500
+
+    dashboard
+
+[33mcommit 8f90d86aff0e8dcbe15ae4062455ce1f4a8f91b6[m
+Merge: b91dd67 4c90a68
+Author: diegolvillamil <diegovillamil8@gmail.com>
+Date:   Fri Nov 26 20:21:32 2021 -0500
+
+    Merge branch 'sprint2' of https://github.com/josenoguera-94/proyecto_veterinaria into sprint2
+
+[33mcommit b91dd67ae48b6c915c6ff1fe3979b6b624ae4cc6[m
+Author: diegolvillamil <diegovillamil8@gmail.com>
+Date:   Fri Nov 26 20:20:31 2021 -0500
+
+    archivos del  sprint 2
+
+[33mcommit 4c90a68c8b2bb3d17466afbea9ea86b9402bdfbb[m
+Author: luis m <molidata25@gmail.com>
+Date:   Fri Nov 26 20:02:22 2021 -0500
+
+    sprint2
+
+[33mcommit 61e3647bd981d0c3d880523004b68671925d6954[m
+Author: Jose Noguera <josenoguera1994@gmail.com>
+Date:   Wed Nov 24 20:28:37 2021 -0500
+
+    cambios en las carpetas y subida del link de la reunion
+
+[33mcommit 7406028060e89904539497da5ce656698ccaf7cc[m
+Author: hedaecra <3883@holbertonschool.com>
+Date:   Tue Nov 23 03:22:51 2021 +0000
+
+    Sprint2
+
+[33mcommit 5de9acdbaf23fcdb27322da1984f1af037e62c18[m[33m ([m[1;32mmaster[m[33m)[m
+Merge: c4073b7 c8153fc
+Author: hedaecra <3883@holbertonschool.com>
+Date:   Tue Nov 9 13:57:51 2021 +0000
+
+    Merge branch 'master' of github.com:josenoguera-94/proyecto_veterinaria
+
+[33mcommit c4073b7e6e9239ce3486f4a28492f268b3ba52f9[m
+Author: hedaecra <3883@holbertonschool.com>
+Date:   Tue Nov 9 05:43:31 2021 +0000
+
+    ff
+
+[33mcommit c8153fc17fc80a9663b89c7b905bdfdb1ece795b[m
+Merge: 7fecc80 8450d9a
+Author: diegolvillamil <90660940+diegolvillamil@users.noreply.github.com>
+Date:   Sun Nov 7 21:05:56 2021 -0500
+
+    Merge pull request #1 from josenoguera-94/sprint1
+    
+    Sprint1
+
+[33mcommit 8450d9a4b143c3a97eeea757776df7ea00f1d291[m
+Merge: 9fb9e94 d187a3f
+Author: diegolvillamil <diegovillamil8@gmail.com>
+Date:   Sun Nov 7 21:05:01 2021 -0500
+
+    Merge branch 'sprint1' of https://github.com/josenoguera-94/proyecto_veterinaria into sprint1
+
+[33mcommit 9fb9e947aa2c070cf59b9ef32aeeaadd58662681[m
+Author: diegolvillamil <diegovillamil8@gmail.com>
+Date:   Sun Nov 7 21:04:20 2021 -0500
+
+    SPRINT 1  2 PATRONES DE DISEÑO
+
+[33mcommit d187a3fba7ef9d5cb417451a99a02e926e3eddba[m
+Author: luis m <molidata25@gmail.com>
+Date:   Sun Nov 7 18:07:10 2021 -0500
+
+    Solucion Sprint1
+
+[33mcommit 9c9a9a195289f1fe42329f53a53dc22e68d710c9[m
+Author: diegolvillamil <diegovillamil8@gmail.com>
+Date:   Sun Nov 7 15:07:09 2021 -0500
+
+    sprint 1  ciclo 4  diego
+
+[33mcommit ef953977e1cd398755cbddab00f76cb43f32b9c9[m
+Author: Jose Noguera <josenoguera1994@gmail.com>
+Date:   Sat Nov 6 23:01:24 2021 -0500
+
+    carpeta jose noguera
+
+[33mcommit 7fecc80193a6ace18e904adc45460315504f639a[m
+Author: Hernán Echeverri <91143534+hedaecra@users.noreply.github.com>
+Date:   Sat Nov 6 01:45:16 2021 -0500
+
+    Delete
+
+[33mcommit 7660b6fb00882bab27a8324bbad2b95538a0f35e[m
+Author: hedaecra <3883@holbertonschool.com>
+Date:   Sat Nov 6 06:29:38 2021 +0000
+
+    Readme
+
+[33mcommit a4d6106a4bf1918b5361ab31bc9814fbb4242db7[m
+Author: hedaecra <3883@holbertonschool.com>
+Date:   Sat Nov 6 06:21:56 2021 +0000
+
+    Readme
+
+[33mcommit 07a3043bfd92de31c943817c570b54596bc49b8c[m
+Author: Hernán Echeverri <91143534+hedaecra@users.noreply.github.com>
+Date:   Sat Nov 6 01:08:50 2021 -0500
+
+    upload folder and files
+
+[33mcommit 1eda9533aa4e6f0e864340ac1c82a23b3604a519[m
+Author: Jose Noguera <josenoguera1994@gmail.com>
+Date:   Thu Nov 4 22:40:45 2021 -0500
+
+    primer commit
