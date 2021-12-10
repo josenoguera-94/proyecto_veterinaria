@@ -8,7 +8,7 @@ $SECRET_KEY = "YqPKkEGiYLIjVoKk7BwWzIZqcsufeO6A";
 function conectar(){
 
 
-$enlace = mysqli_connect('localhost', 'root', 'unimag2020', null, 3307); //conexion con la base de datos
+$enlace = mysqli_connect('localhost', 'root', '', null, 3306); //conexion con la base de datos
 
 if(!$enlace){ //if $enlace esto da siempre true (Si tenemos error en la conexion por eso pone !)
     echo "Error: No se puede conectara MySQL." . PHP_EOL;
@@ -26,7 +26,7 @@ if(!$enlace){ //if $enlace esto da siempre true (Si tenemos error en la conexion
 
         if($query){
 
-            $enlace = mysqli_connect('localhost', 'root', 'unimag2020', 'veterinaria' , 3307);
+            $enlace = mysqli_connect('localhost', 'root', '', 'veterinaria' , 3306);
             $query = mysqli_query($enlace, $sql);
 
             $sql = "
@@ -93,7 +93,7 @@ if(!$enlace){ //if $enlace esto da siempre true (Si tenemos error en la conexion
 
     }else{
 
-        return mysqli_connect('localhost', 'root', 'unimag2020', 'veterinaria' , 3307);
+        return mysqli_connect('localhost', 'root', '', 'veterinaria' , 3306);
     }
 
     return $enlace;
