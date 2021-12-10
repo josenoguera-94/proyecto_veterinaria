@@ -11,6 +11,8 @@ import { EditarMascotaComponent } from './components/mascotas/editar-mascota/edi
 import { FooterComponent } from './components/footer/footer.component';
 import { ListarMascotasComponent } from './components/mascotas/listar-mascotas/listar-mascotas.component';
 import { HttpClientModule } from '@angular/common/http';
+import { MascotasService } from './components/services/mascotas.service';
+import { VeterinariosService } from './components/services/veterinarios.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +29,10 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [
+    MascotasService,
+    VeterinariosService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

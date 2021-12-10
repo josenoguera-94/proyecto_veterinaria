@@ -12,6 +12,12 @@ export class VeterinariosService {
 
   API_URI = 'http://localhost/proyecto-veterinaria/veterinaria-backend'
 
+  options = {
+    observe: "response" as 'body', // to display the full response & as 'body' for type cast
+    responseType: "json"
+  };
+
+
   constructor(private http: HttpClient) { }
 
   getVeterinarios() {
@@ -22,8 +28,12 @@ export class VeterinariosService {
     return this.http.post<Veterinario>(`${this.API_URI}/veterinarios/crearVeterinario.php`, veterinario)
   }
 
-  Login(login: Login): Observable<Login> { 
-    return this.http.post<Login>(`${this.API_URI}/admin/login.php`, login)
+ 
+  loginUsuario(login: Login): Observable<Login> { 
+    return this.http.post<Login>(`${this.API_URI}/admin/login.php`, login, {
+      observe: "response" as 'body',
+      responseType: "json"
+    })
   }
 
 }

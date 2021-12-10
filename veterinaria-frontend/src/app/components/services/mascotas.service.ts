@@ -26,9 +26,7 @@ export class MascotasService {
   }
 
   updateGame(id: string | number, updateMascota: Mascota) {
-    //: Observable<Game> averiguar
     return this.http.put(`${this.API_URI}/mascotas/editarMascota.php?id=${id}`, updateMascota);
-
   }
   
   deleteGame(id: string){

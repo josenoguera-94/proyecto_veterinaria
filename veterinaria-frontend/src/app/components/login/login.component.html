@@ -11,13 +11,14 @@
                     </div>
                     <form action="" id="frmLogin" class="fz-14">
                         <label class="mb-0">Correo electrónico</label>
-                        <input type="email" class="form-control input-sm mb-2" id="correoL" name="correoL" placeholder="Ingrese un correo electrónico">
+                        <input type="email" class="form-control input-sm mb-2" [(ngModel)]="login.correo" name="correo" placeholder="Ingrese un correo electrónico">
                         <label class="mb-0">Contraseña</label>
-                        <input type="password" class="form-control input-sm mb-2" id="passwordL" name="passwordL" placeholder="Ingrese de nuevo la contraseña">
+                        <input type="password" class="form-control input-sm mb-2" [(ngModel)]="login.contrasena" name="contrasena" placeholder="Ingrese de nuevo la contraseña">
                     </form>
                 </div>
                 <div class="card-footer text-center">
-                        <a routerLink="/inicio" class="btn btn-primary">Iniciar sesión</a>
+                    <a routerLink="/inicio" class="btn btn-primary">Iniciar sesión</a>
+                        <!-- <div (click)="loginUsuario()" class="btn btn-primary">Iniciar sesión</div> -->
                 </div>
             </div>
         </div>
