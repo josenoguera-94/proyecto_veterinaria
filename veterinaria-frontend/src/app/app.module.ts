@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,7 +10,9 @@ import { CrearUsuarioComponent } from './components/crear-usuario/crear-usuario.
 import { EditarMascotaComponent } from './components/mascotas/editar-mascota/editar-mascota.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ListarMascotasComponent } from './components/mascotas/listar-mascotas/listar-mascotas.component';
-
+import { HttpClientModule } from '@angular/common/http';
+import { MascotasService } from './components/services/mascotas.service';
+import { VeterinariosService } from './components/services/veterinarios.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,9 +25,14 @@ import { ListarMascotasComponent } from './components/mascotas/listar-mascotas/l
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    MascotasService,
+    VeterinariosService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
