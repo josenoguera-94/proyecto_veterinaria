@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row mt-5">
+        <div class="col-md-4 offset-md-4">
+            <div class="card shadow" style="border-color: #337ab7;">
+                <div class="card-header text-light text-center" style="background: #337ab7;">
+                    My furry loves
+                </div>
+                <div class="card-body">
+                    <div style="text-align: center;">
+                        <img src="../../../assets/img/logo.jpg" height="130">
+                    </div>
+                    <form action="" id="frmLogin" class="fz-14">
+                        <label class="mb-0">Correo electrónico</label>
+                        <input type="email" class="form-control input-sm mb-2" [(ngModel)]="login.correo" name="correo" placeholder="Ingrese un correo electrónico">
+                        <label class="mb-0">Contraseña</label>
+                        <input type="password" class="form-control input-sm mb-2" [(ngModel)]="login.contrasena" name="contrasena" placeholder="Ingrese de nuevo la contraseña">
+                    </form>
+                </div>
+                <div class="card-footer text-center">
+                    <a routerLink="/inicio" class="btn btn-primary">Iniciar sesión</a>
+                        <!-- <div (click)="loginUsuario()" class="btn btn-primary">Iniciar sesión</div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
